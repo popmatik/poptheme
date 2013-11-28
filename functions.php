@@ -73,7 +73,6 @@ function _popmatikscripts() {
 
 	wp_enqueue_script( 'popmatik-requirejs', get_template_directory_uri() . '/js/vendor/requirejs/require.js', array(), false, true );
 	wp_enqueue_script( 'popmatik-global', get_template_directory_uri() . '/js/global.js', array(), false, true );
-	wp_enqueue_script( 'popmatik-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), false, true );
 
 	wp_enqueue_script( 'live-reload', get_bloginfo('url') . ':35729/livereload.js?snipver=1', array(), false, true );
 
