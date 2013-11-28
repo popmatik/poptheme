@@ -76,7 +76,6 @@ function _popmatikscripts() {
 
 	wp_enqueue_script( 'live-reload', get_bloginfo('url') . ':35729/livereload.js?snipver=1', array(), false, true );
 
-
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
