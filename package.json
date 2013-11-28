@@ -1,7 +1,7 @@
 {
-  "name": "YeoPress-Template",
+  "name": "Popmatik-Template",
   "version": "0.0.2",
-  "description": "A basic template for use in YeoPress",
+  "description": "An extended Yeopress template with Twitter Bootstrap",
   "scripts": {
     "test": ""
   },
@@ -11,7 +11,7 @@
     "YeoPress",
     "Template"
   ],
-  "author": "Wes Todd",
+  "author": "Rob Leach Wes Todd",
   "license": "BSD",
   "devDependencies": {
     "grunt": "~0.4.1",

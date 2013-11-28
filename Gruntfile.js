@@ -101,9 +101,9 @@ module.exports = function(grunt) {
 				files : [
 					{
 						expand: true,
-						cwd: 'images',
+						cwd: 'img',
 						src: '**/*.{png,jpg,jpeg}',
-						dest: 'images'
+						dest: 'img'
 					}
 				]
 			}
@@ -115,9 +115,9 @@ module.exports = function(grunt) {
 				files: [
 					{
 						expand: true,
-						cwd: 'images',
+						cwd: 'img',
 						src: '**/*.svg',
-						dest: 'images'
+						dest: 'img'
 					}
 				]
 			}
