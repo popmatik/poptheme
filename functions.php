@@ -40,12 +40,7 @@ function _popmatiksetup() {
 
 	// Enable support for Post Formats.
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
-
-	// Setup the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( '_popmatikcustom_background_args', array(
-		'default-color' => 'ffffff',
-		'default-image' => '',
-	) ) );
+	
 }
 endif; // _popmatiksetup
 add_action( 'after_setup_theme', '_popmatiksetup' );
