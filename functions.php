@@ -66,6 +66,7 @@ add_action( 'widgets_init', '_popmatikwidgets_init' );
 function _popmatikscripts() {
 	wp_enqueue_style( 'popmatik-style', get_template_directory_uri() . '/css/main.css' );
 
+	wp_enqueue_script( 'popmatik-modernizr', get_template_directory_uri() . '/js/vendor/requirejs/modernizr.js', array(), false, false );
 	wp_enqueue_script( 'popmatik-requirejs', get_template_directory_uri() . '/js/vendor/requirejs/require.js', array(), false, true );
 	wp_enqueue_script( 'popmatik-global', get_template_directory_uri() . '/js/global.js', array(), false, true );
 
