@@ -1,5 +1,5 @@
 require.config({
-	"baseUrl": "<%= conf.contentDir %>/themes/<%= conf.themeDir %>/js",
+	"baseUrl": "<%= conf.get('contentDir') %>/themes/<%= conf.get('themeDir') %>/js",
 	"paths": {
 		"jquery": "vendor/jquery/jquery"
 	}
